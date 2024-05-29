@@ -1,0 +1,10 @@
+[package]
+name = "partn-ipv4obfuscation"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+winapi = {version = "0.3.9", features = ["minwindef", "ntdef", "winerror", "commapi", "errhandlingapi", "fileapi", "handleapi", "ioapiset", "minwinbase", "processthreadsapi", "synchapi", "winbase", "winnt", "mstcpip"]}
+uuid = { version = "1.8.0", features = ["v4"] }
