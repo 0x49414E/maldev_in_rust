@@ -1,0 +1,2 @@
+cargo:rerun-if-env-changed=OBFSTR_SEED
+cargo:rustc-env=OBFSTR_SEED=FIXED
