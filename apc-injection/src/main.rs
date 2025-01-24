@@ -1,3 +1,4 @@
+use std::sync::Arc;
 use std::u32;
 
 use winapi::shared::ntdef::{HANDLE, NULL};
